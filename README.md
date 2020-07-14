@@ -8,20 +8,20 @@
 ## THE GHOST CAR - PROTOTYPE
 <div align="center" ><img src="Assets/IMAGES/IMG0.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/></div>
 
-### About the Project Files Structure
+## About the Project Files Structure
 
 **Driving Prediction**  
-&emsp; The following Programs are run on an external system with good GPU computation capacity.  
-&emsp; &emsp; `angle.txt`: File buffer for TCP data transfer.  
-&emsp; &emsp; `modelall.h5`: Trained model file to control the Steering for the Prototype Car.  
-&emsp; &emsp; `modelleft.h5`: Trained model file to control the Steering for the Prototype Car - only left turns.  
-&emsp; &emsp; `modelright.h5`: Trained model file to control the Steering for the Prototype Car - only right turns.  
-&emsp; &emsp; `run.bat`: Batch File to manage multiple windows.  
-&emsp; &emsp; `uploadTCP.py`: Establishes TCP connection to the prototype car.  
-&emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
-&emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
-&emsp; For DataSet used to train the following model refer to my other repository - [GhostCar-TrainingData](https://github.com/sgagankumar/GhostCar-TrainingData)  
-&emsp; For Training Procedures and Techniques refer to my other repository - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
+* &emsp; The following Programs are run on an external system with good GPU computation capacity.  
+* &emsp; &emsp; `angle.txt`: File buffer for TCP data transfer.  
+* &emsp; &emsp; `modelall.h5`: Trained model file to control the Steering for the Prototype Car.  
+* &emsp; &emsp; `modelleft.h5`: Trained model file to control the Steering for the Prototype Car - only left turns.  
+* &emsp; &emsp; `modelright.h5`: Trained model file to control the Steering for the Prototype Car - only right turns.  
+* &emsp; &emsp; `run.bat`: Batch File to manage multiple windows.  
+* &emsp; &emsp; `uploadTCP.py`: Establishes TCP connection to the prototype car.  
+* &emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
+* &emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
+* &emsp; For DataSet used to train the following model refer to my other repository - [GhostCar-TrainingData](https://github.com/sgagankumar/GhostCar-TrainingData)  
+* &emsp; For Training Procedures and Techniques refer to my other repository - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
   
 **Lane Detection**  
 &emsp; &emsp; `lanesImage.py`: Detects Lanes on Road - for Image Input.  
@@ -40,10 +40,10 @@
 &emsp; &emsp; `yolov3-tiny.cfg`: Yolov3 tiny config files - Light weight.  
 &emsp; &emsp; `yolov3.weights`: Yolov3 tiny neural networks weights files - Standard.  
 &emsp; &emsp; `yolov3-tiny.weights`: Yolov3 tiny neural networks weights files - Light weight.  
-~ Yolov3 Config and Weight files obtained from [Yolo](https://pjreddie.com/darknet/yolo/) by [Joseph Chet Redmon](https://pjreddie.com/)  
+&emsp; ~ Yolov3 Config and Weight files obtained from [Yolo](https://pjreddie.com/darknet/yolo/) by [Joseph Chet Redmon](https://pjreddie.com/)  
   
 **RPi Programs**  
-The following programs are run on the Raspberri Pi mounted on the Car Prototype.  
+&emsp; The following programs are run on the Raspberri Pi mounted on the Car Prototype.  
 &emsp; &emsp; `GhostCarDrive.py`: Program that controls the Prototype Car's components for the autonomous driving.  
 &emsp; &emsp; `IPStreaming.py`: Program that streams car's camera input to external computer over IP.  
 &emsp; &emsp; `SampleControlServoMotor.py`: Sample program to test Servo Motors manually.  
@@ -68,7 +68,7 @@ The following programs are run on the Raspberri Pi mounted on the Car Prototype.
 **Traffic Sign Detection**  
 &emsp; &emsp; `Traffic Signs Detection.py`: Program to Predcit Traffic signs - for Video Input.  
 &emsp; &emsp; `trafficmodel.h5`: CNN model for traffic sign prediction.  
-For DataSet and Training Procedures used to train the following model refer to my other repository - [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
+&emsp; For DataSet and Training Procedures used to train the following model refer to my other repository - [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
 
 **Udacity Simulator**  
 &emsp; &emsp; `Udacity Simulator - Windows64 - Installer.zip`: Windows Installer for Open Source Simulation Software developed by UDACITY using Unity Engine for Autonomous Car Simulation. For the Actual Project Refer the following link. https://github.com/udacity/self-driving-car-sim  
@@ -78,20 +78,20 @@ For DataSet and Training Procedures used to train the following model refer to m
 &emsp; &emsp; `videoFlipper.py`: Program that flip the video horizontally or vertically to alter different positions of camera.  
 &emsp; &emsp; `videoFramer.py`: Program that saves each frame in a Separate folder for a Video Input also with a config file with all the frame files names, usually used for dataset generation.  
 	
-### Setting up the environment  
-#### ON Raspberry Pi  
+## Setting up the environment  
+### On Raspberry Pi  
 The hardware used in this project on the prototype was a Raspberry Pi 4 B+ 4GB RAM Model.  
 1. Install `Python 3.6.0+`  
 2. Copy the 'RPi Programs' folder onto the Raspberri Pi directory.  
 3. Run the following commmand on your terminal `pip3 install -r Requirements.txt`  
 
-#### ON External System  
+### On External System  
 The external hardware used in this project consists of two laptops. Each running Steering Control and Object Detection Respectively  
 1. Install `Python 3.6.0+`  
 2. Copy all the project file system.  
 3. Run the following commmand on your terminal `pip install -r Requirements.txt`  
 
-### How to drive  
+## How to drive  
 1. **Testing:** Run the Sample programs under each sub-folder to test the functioning for all the features.  
   
 2. **Training (optional):** Run the training programs along with relevant dataset to customize the neural network models as per requirements  
@@ -105,7 +105,7 @@ The external hardware used in this project consists of two laptops. Each running
 6. **Establish TCP Communication:** Create a TCP Server connection to send back valuable data to the prototype model. Run `python uploadTCP.py` to start a server to send data upon request from the RPi.  
   
 7. **Self-driving of prototype**: Run `python3 GhostCarDrive.py` on RPi4, wait for the program to perform GPIO pin setup and establish a connection with the TCP server. Once the above actions are performed the car with start self-driving.  
-**NOTE**: To terminate the Program - Press *Ctrl + C* only once!, pressing multiple times with forcefully terminate the program causing GPIO pins to misbehave due improper program termination.  
+&emsp; &emsp; **NOTE**: To terminate the Program - Press *Ctrl + C* only once!, pressing multiple times with forcefully terminate the program causing GPIO pins to misbehave due improper program termination.  
 
 ## PROTOTYPE MODEL -
 ### IMAGES
@@ -113,19 +113,19 @@ The external hardware used in this project consists of two laptops. Each running
 <img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG5.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG6.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG7.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG7.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG8.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG9.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG11.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG12.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG13.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG14.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG15.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG16.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG11.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG12.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG13.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG14.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG15.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG16.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG17.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG18.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG18.jpeg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG19.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 
 ### VIDEOS
