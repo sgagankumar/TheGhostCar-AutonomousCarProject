@@ -12,7 +12,7 @@
 
 ## About the Project Files Structure
 
-###**~/Driving Prediction/**  
+### **~/Driving Prediction/**  
 
 &emsp; The following Programs are run on an external system with good GPU computation capacity.  
 
