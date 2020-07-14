@@ -1,0 +1,5 @@
+numpy==1.18.1
+opencv-python==3.4.9.33
+pandas==1.0.1
+picamera==1.13
+RPi.GPIO==0.7.0
