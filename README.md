@@ -180,8 +180,6 @@ The external hardware used in this project consists of two laptops. Each running
 <img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=45% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=45% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=45% height=auto hspace="20"/>
-
-#### MODEL CAR  
 <img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=40% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=40% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG7.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
@@ -192,7 +190,6 @@ The external hardware used in this project consists of two laptops. Each running
 <img src="Assets/IMAGES/IMG12.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG13.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG14.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-
 <img src="Assets/IMAGES/IMG16.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG17.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG18.jpeg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
