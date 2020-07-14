@@ -10,29 +10,29 @@
 
 ## About the Project Files Structure
 
-**Driving Prediction**  
+**Driving Prediction/**  
 &emsp; The following Programs are run on an external system with good GPU computation capacity.  
-&emsp; &emsp; * `angle.txt`: File buffer for TCP data transfer.  
-* &emsp; &emsp; `modelall.h5`: Trained model file to control the Steering for the Prototype Car.  
-* &emsp; &emsp; `modelleft.h5`: Trained model file to control the Steering for the Prototype Car - only left turns.  
-* &emsp; &emsp; `modelright.h5`: Trained model file to control the Steering for the Prototype Car - only right turns.  
-* &emsp; &emsp; `run.bat`: Batch File to manage multiple windows.  
-* &emsp; &emsp; `uploadTCP.py`: Establishes TCP connection to the prototype car.  
-* &emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
-* &emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
-* &emsp; For DataSet used to train the following model refer to my other repository - [GhostCar-TrainingData](https://github.com/sgagankumar/GhostCar-TrainingData)  
-* &emsp; For Training Procedures and Techniques refer to my other repository - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
+&emsp; &emsp; `angle.txt`: File buffer for TCP data transfer.  
+&emsp; &emsp; `modelall.h5`: Trained model file to control the Steering for the Prototype Car.  
+&emsp; &emsp; `modelleft.h5`: Trained model file to control the Steering for the Prototype Car - only left turns.  
+&emsp; &emsp; `modelright.h5`: Trained model file to control the Steering for the Prototype Car - only right turns.  
+&emsp; &emsp; `run.bat`: Batch File to manage multiple windows.  
+&emsp; &emsp; `uploadTCP.py`: Establishes TCP connection to the prototype car.  
+&emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
+&emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
+&emsp; For DataSet used to train the following model refer to my other repository - [GhostCar-TrainingData](https://github.com/sgagankumar/GhostCar-TrainingData)  
+&emsp; For Training Procedures and Techniques refer to my other repository - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
   
-**Lane Detection**  
+**Lane Detection/**  
 &emsp; &emsp; `lanesImage.py`: Detects Lanes on Road - for Image Input.  
 &emsp; &emsp; `lanesTuner.py`: Helps in tuning lanesImage.py  
 &emsp; &emsp; `lanesVideo.py`: Detects Lanes on Road - for Video Input.  
 &emsp; &emsp; `test_images.jpg`: Samples Images to test lanesImage.py  
 &emsp; &emsp; `test_video.mp4`: Samples Videos to test lanesVideo.py  
   
-**Object Detection**  
+**Object Detection/**  
 &emsp; &emsp; `coco.names`: COCO is a large-scale object detection, segmentation, and captioning dataset,  
-&emsp; &emsp; &emsp; &emsp; to know more you can visit [Click Me](https://cocodataset.org/#home) .  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; to know more you can visit [Click Me](https://cocodataset.org/#home) .  
 &emsp; &emsp; `OD.py`: Object Detection Program - for Video Input.  
 &emsp; &emsp; `ODimage.py`: Object Detection Program - for Image Input.  
 &emsp; &emsp; `test.mp4`: Sample Video for Testing Object Detection.  
@@ -43,41 +43,48 @@
 &emsp; &emsp; `yolov3-tiny.weights`: Yolov3 tiny neural networks weights files - Light weight.  
 &emsp; ~ Yolov3 Config and Weight files obtained from [Yolo](https://pjreddie.com/darknet/yolo/) by [Joseph Chet Redmon](https://pjreddie.com/)  
   
-**RPi Programs**  
+**RPi Programs/**  
 &emsp; The following programs are run on the Raspberri Pi mounted on the Car Prototype.  
 &emsp; &emsp; `GhostCarDrive.py`: Program that controls the Prototype Car's components for the autonomous driving.  
 &emsp; &emsp; `IPStreaming.py`: Program that streams car's camera input to external computer over IP.  
 &emsp; &emsp; `SampleControlServoMotor.py`: Sample program to test Servo Motors manually.  
 &emsp; &emsp; `SampleTestMotor.py`: Sample program to test DC motor through L298N driver.  
 
-**Sample TCP Connection**  
+**Sample TCP Connection/**  
 &emsp; &emsp; `client.py`: Sample TCP Client Program - Runs on RPi to establish connection with External GPU.  
 &emsp; &emsp; `server.py`: Sample TCP Server Program - Runs on laptop to send back data to RPi.  
 
-**Simulation Testing Driver**  
+**Simulation Testing Driver/**  
 &emsp; &emsp; `drive relay.py`: Program that connects with UDACITY Autonomous Driving Simulator.  
 &emsp; &emsp; `drive.py`: Program to test trained models on the simulator.  
 &emsp; &emsp; `model speed.h5`: Trained Model to control the Car's Speed.  
 &emsp; &emsp; `model steering.h5`: Trained Model to control the Car's Steering.  
 &emsp; &emsp; `model throttle.h5`: Trained Model to control the Car's Throttle.  
 
-**Trafic Light Detection**  
+**Trafic Light Detection/**  
 &emsp; &emsp; `TrafficLight.py`: Program that recognises Traffic Lights.  
 &emsp; &emsp; `Sample_Video.mp4`: Sample video to test Traffic light Recognition.  
 &emsp; &emsp; `Sample_Output.mp4`: Sample video output for the Traffic light Recognition.  
 
-**Traffic Sign Detection**  
+**Traffic Sign Detection/**  
 &emsp; &emsp; `Traffic Signs Detection.py`: Program to Predcit Traffic signs - for Video Input.  
 &emsp; &emsp; `trafficmodel.h5`: CNN model for traffic sign prediction.  
-&emsp; For DataSet and Training Procedures used to train the following model refer to my other repository - [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
+&emsp; For DataSet and Training Procedures used to train the following model refer to my other repository -  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
 
-**Udacity Simulator**  
-&emsp; &emsp; `Udacity Simulator - Windows64 - Installer.zip`: Windows Installer for Open Source Simulation Software developed by UDACITY using Unity Engine for Autonomous Car Simulation. For the Actual Project Refer the following link. https://github.com/udacity/self-driving-car-sim  
+**Udacity Simulator/**  
+&emsp; &emsp; `Udacity Simulator - Windows64 - Installer.zip`: Windows Installer for Open Source Simulation Software  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; developed by UDACITY using Unity Engine for Autonomous Car Simulation.  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; For the Actual Project Refer the following link. https://github.com/udacity/self-driving-car-sim  
 
-**Video Recording**  
+**Video Recording/**  
 &emsp; &emsp; `videoCapture.py`: Program to record video from a camera or mp4 or mjpeg stream.  
+
 &emsp; &emsp; `videoFlipper.py`: Program that flip the video horizontally or vertically to alter different positions of camera.  
-&emsp; &emsp; `videoFramer.py`: Program that saves each frame in a Separate folder for a Video Input also with a config file with all the frame files names, usually used for dataset generation.  
+
+&emsp; &emsp; `videoFramer.py`: Program that saves each frame in a Separate folder for a Video Input also with a config file  
+
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; with all the frame files names, usually used for dataset generation.  
 	
 ## Setting up the environment  
 ### On Raspberry Pi  
