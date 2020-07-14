@@ -176,10 +176,10 @@ The external hardware used in this project consists of two laptops. Each running
 ## PROTOTYPE MODEL -
 ### IMAGES
 #### MODEL TRACK
-<img src="Assets/IMAGES/IMG1.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
-<img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
-<img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
-<img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
+<div><img src="Assets/IMAGES/IMG1.jpg" alt="Ghost Car Images" width=40% height=auto hspace="20"/>
+<img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=40% height=auto hspace="20"/><div>
+<img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=40% height=auto hspace="20"/>
+<img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=40% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG7.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
