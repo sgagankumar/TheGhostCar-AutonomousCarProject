@@ -11,8 +11,8 @@
 ## About the Project Files Structure
 
 **Driving Prediction**  
-* &emsp; The following Programs are run on an external system with good GPU computation capacity.  
-* &emsp; &emsp; `angle.txt`: File buffer for TCP data transfer.  
+&emsp; The following Programs are run on an external system with good GPU computation capacity.  
+&emsp; &emsp; * `angle.txt`: File buffer for TCP data transfer.  
 * &emsp; &emsp; `modelall.h5`: Trained model file to control the Steering for the Prototype Car.  
 * &emsp; &emsp; `modelleft.h5`: Trained model file to control the Steering for the Prototype Car - only left turns.  
 * &emsp; &emsp; `modelright.h5`: Trained model file to control the Steering for the Prototype Car - only right turns.  
@@ -31,7 +31,8 @@
 &emsp; &emsp; `test_video.mp4`: Samples Videos to test lanesVideo.py  
   
 **Object Detection**  
-&emsp; &emsp; `coco.names`: COCO is a large-scale object detection, segmentation, and captioning dataset, to know more you can visit [Click Me](https://cocodataset.org/#home) .  
+&emsp; &emsp; `coco.names`: COCO is a large-scale object detection, segmentation, and captioning dataset,  
+&emsp; &emsp; &emsp; &emsp; to know more you can visit [Click Me](https://cocodataset.org/#home) .  
 &emsp; &emsp; `OD.py`: Object Detection Program - for Video Input.  
 &emsp; &emsp; `ODimage.py`: Object Detection Program - for Image Input.  
 &emsp; &emsp; `test.mp4`: Sample Video for Testing Object Detection.  
