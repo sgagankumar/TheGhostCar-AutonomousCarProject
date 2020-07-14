@@ -1,12 +1,12 @@
 # The GHOST CAR - An Autonomous Car Project
 ## Academic Final Year Engineering Project
 
-The Aim of this project was to develop a Autonomous Car Prototype, which had automatic steering control, traffic sign recognition, traffic light detection and other object detection features.  
-The Project runs on a Model Car which uses a Raspberry Pi 4B+, assisted by 1-3 external computing hardware based on the GPU memory capacity. The Model Car collects input from a camera module, an ultrasonic sensor, sends data to a external computer over IP. The computer processes the input data for movement controls, object detection (traffic sign and traffic light) and collision avoidance.  
-All these features are achieved using latest technologies such as, Machine Learning Algorithms, Artificial Neural Networks, Sensor Fusion and Computer Vision.  
+* The Aim of this project was to develop a Autonomous Car Prototype, which had automatic steering control, traffic sign recognition, traffic light detection and other object detection features.  
+* The Project runs on a Model Car which uses a Raspberry Pi 4B+, assisted by 1-3 external computing hardware based on the GPU memory capacity. The Model Car collects input from a camera module, an ultrasonic sensor, sends data to a external computer over IP. The computer processes the input data for movement controls, object detection (traffic sign and traffic light) and collision avoidance.  
+* All these features are achieved using latest technologies such as, Machine Learning Algorithms, Artificial Neural Networks, Sensor Fusion and Computer Vision.  
 
 ## THE GHOST CAR
-<img src="Assets/IMAGES/IMG0.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/IMAGES/IMG0.jpg" alt="Ghost Car Images" align="center" width=auto height=350px hspace="20"/>
 
 
 ### About the Project Files Structure
