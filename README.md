@@ -176,6 +176,7 @@ The external hardware used in this project consists of two laptops. Each running
 ## PROTOTYPE MODEL -
 ### IMAGES
 #### MODEL TRACK
+
 <img src="Assets/IMAGES/IMG1.jpg" alt="Ghost Car Images" width=45% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=45% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=45% height=auto hspace="20"/>
