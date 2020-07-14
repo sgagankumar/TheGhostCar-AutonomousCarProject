@@ -12,7 +12,7 @@
 
 ## About the Project Files Structure
 
-**Driving Prediction/**  
+**~/Driving Prediction/**  
 
 &emsp; The following Programs are run on an external system with good GPU computation capacity.  
 
@@ -32,12 +32,12 @@
 
 &emsp; &emsp; `videoPredict.py`: Program that predicts steering angle using trained Convolution Neural Networks.  
 
-&emsp; For DataSet used to train the following model refer to my other repository - [GhostCar-TrainingData](https://github.com/sgagankumar/GhostCar-TrainingData)  
+* For DataSet used to train the following model refer to my other repository - [GhostCar-TrainingData](https://github.com/sgagankumar/GhostCar-TrainingData)  
 
-&emsp; For Training Procedures and Techniques refer to my other repository - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
+* For Training Procedures and Techniques refer to my other repository - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
 
   
-**Lane Detection/**  
+**~/Lane Detection/**  
 
 &emsp; &emsp; `lanesImage.py`: Detects Lanes on Road - for Image Input.  
 
@@ -50,7 +50,7 @@
 &emsp; &emsp; `test_video.mp4`: Samples Videos to test lanesVideo.py  
 
   
-**Object Detection/**  
+**~/Object Detection/**  
 
 &emsp; &emsp; `coco.names`: COCO is a large-scale object detection, segmentation, and captioning dataset.  
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; to know more you can visit [Click Me](https://cocodataset.org/#home) .  
@@ -71,10 +71,10 @@
 
 &emsp; &emsp; `yolov3-tiny.weights`: Yolov3 tiny neural networks weights files - Light weight.  
 
-&emsp; ~ Yolov3 Config and Weight files obtained from [Yolo](https://pjreddie.com/darknet/yolo/) by [Joseph Chet Redmon](https://pjreddie.com/)  
+* Yolov3 Config and Weight files obtained from [YoloV3](https://pjreddie.com/darknet/yolo/) by [Joseph Chet Redmon](https://pjreddie.com/)  
 
   
-**RPi Programs/**  
+**~/RPi Programs/**  
 
 &emsp; The following programs are run on the Raspberri Pi mounted on the Car Prototype.  
 
@@ -87,14 +87,14 @@
 &emsp; &emsp; `SampleTestMotor.py`: Sample program to test DC motor through L298N driver.  
 
 
-**Sample TCP Connection/**  
+**~/Sample TCP Connection/**  
 
 &emsp; &emsp; `client.py`: Sample TCP Client Program - Runs on RPi to establish connection with External GPU.  
 
 &emsp; &emsp; `server.py`: Sample TCP Server Program - Runs on laptop to send back data to RPi.  
 
 
-**Simulation Testing Driver/**  
+**~/Simulation Testing Driver/**  
 
 &emsp; &emsp; `drive relay.py`: Program that connects with UDACITY Autonomous Driving Simulator.  
 
@@ -107,7 +107,7 @@
 &emsp; &emsp; `model throttle.h5`: Trained Model to control the Car's Throttle.  
 
 
-**Trafic Light Detection/**  
+**~/Trafic Light Detection/**  
 
 &emsp; &emsp; `TrafficLight.py`: Program that recognises Traffic Lights.  
 
@@ -116,24 +116,24 @@
 &emsp; &emsp; `Sample_Output.mp4`: Sample video output for the Traffic light Recognition.  
 
 
-**Traffic Sign Detection/**  
+**~/Traffic Sign Detection/**  
 
 &emsp; &emsp; `Traffic Signs Detection.py`: Program to Predcit Traffic signs - for Video Input.  
 
 &emsp; &emsp; `trafficmodel.h5`: CNN model for traffic sign prediction.  
 
-&emsp; For DataSet and Training Procedures used to train the following model refer to my other repository -  
+* For DataSet and Training Procedures used to train the following model refer to my other repository -  
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
 
 
-**Udacity Simulator/**  
+**~/Udacity Simulator/**  
 
 &emsp; &emsp; `Udacity Simulator - Windows64 - Installer.zip`: Windows Installer for Open Source Simulation Software  
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; developed by UDACITY using Unity Engine for Autonomous Car Simulation.  
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; For the Actual Project Refer the following link. https://github.com/udacity/self-driving-car-sim  
 
 
-**Video Recording/**  
+**~/Video Recording/**  
 
 &emsp; &emsp; `videoCapture.py`: Program to record video from a camera or mp4 or mjpeg stream.  
 
@@ -148,12 +148,14 @@ The hardware used in this project on the prototype was a Raspberry Pi 4 B+ 4GB R
 1. Install `Python 3.6.0+`  
 2. Copy the 'RPi Programs' folder onto the Raspberri Pi directory.  
 3. Run the following commmand on your terminal `pip3 install -r Requirements.txt`  
-<hr>
+<hr>  
+
 ### On External System  
 The external hardware used in this project consists of two laptops. Each running Steering Control and Object Detection Respectively  
 1. Install `Python 3.6.0+`  
 2. Copy all the project file system.  
 3. Run the following commmand on your terminal `pip install -r Requirements.txt`  
+<hr>  
 
 ## How to drive  
 1. **Testing:** Run the Sample programs under each sub-folder to test the functioning for all the features.  
@@ -169,7 +171,7 @@ The external hardware used in this project consists of two laptops. Each running
 6. **Establish TCP Communication:** Create a TCP Server connection to send back valuable data to the prototype model. Run `python uploadTCP.py` to start a server to send data upon request from the RPi.  
   
 7. **Self-driving of prototype**: Run `python3 GhostCarDrive.py` on RPi4, wait for the program to perform GPIO pin setup and establish a connection with the TCP server. Once the above actions are performed the car with start self-driving.  
-&emsp; &emsp; **NOTE**: To terminate the Program - Press *Ctrl + C* only once!, pressing multiple times with forcefully terminate the program causing GPIO pins to misbehave due improper program termination.  
+&emsp; **NOTE**: To terminate the Program - Press *Ctrl + C* only once!, pressing multiple times with forcefully terminate the program causing GPIO pins to misbehave due improper program termination.  
 
 ## PROTOTYPE MODEL -
 ### IMAGES
