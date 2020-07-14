@@ -53,7 +53,7 @@
 ### **~/Object Detection/**  
 
 &emsp; &emsp; `coco.names`: COCO is a large-scale object detection, segmentation, and captioning dataset.  
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; to know more you can visit [Click Me](https://cocodataset.org/#home) .  
+&emsp; &emsp; &emsp; &emsp; to know more you can visit [Click Me](https://cocodataset.org/#home) .  
 
 &emsp; &emsp; `OD.py`: Object Detection Program - for Video Input.  
 
@@ -123,14 +123,14 @@
 &emsp; &emsp; `trafficmodel.h5`: CNN model for traffic sign prediction.  
 
 * For DataSet and Training Procedures used to train the following model refer to my other repository -  
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
+&emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
 
 
 ### **~/Udacity Simulator/**  
 
 &emsp; &emsp; `Udacity Simulator - Windows64 - Installer.zip`: Windows Installer for Open Source Simulation Software  
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; developed by UDACITY using Unity Engine for Autonomous Car Simulation.  
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; For the Actual Project Refer the following link. https://github.com/udacity/self-driving-car-sim  
+&emsp; &emsp; &emsp; &emsp; developed by UDACITY using Unity Engine for Autonomous Car Simulation.  
+&emsp; &emsp; &emsp; &emsp; For the Actual Project Refer the following link. https://github.com/udacity/self-driving-car-sim  
 
 
 ### **~/Video Recording/**  
@@ -140,7 +140,7 @@
 &emsp; &emsp; `videoFlipper.py`: Program that flip the video horizontally or vertically to alter different positions of camera.  
 
 &emsp; &emsp; `videoFramer.py`: Program that saves each frame in a Separate folder for a Video Input also with a config file  
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; with all the frame files names, usually used for dataset generation.  
+&emsp; &emsp; &emsp; &emsp; with all the frame files names, usually used for dataset generation.  
 	
 ## Setting up the environment  
 ### On Raspberry Pi  
@@ -175,10 +175,11 @@ The external hardware used in this project consists of two laptops. Each running
 
 ## PROTOTYPE MODEL -
 ### IMAGES
-<img src="Assets/IMAGES/IMG1.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+#### MODEL TRACK
+<img src="Assets/IMAGES/IMG1.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
+<img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
+<img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
+<img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=50% height=auto hspace="20"/>
 <img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 <img src="Assets/IMAGES/IMG7.JPG" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
