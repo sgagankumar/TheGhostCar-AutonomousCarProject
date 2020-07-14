@@ -37,7 +37,7 @@
 * For Training Procedures and Techniques refer to my other repository - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
 
   
-**~/Lane Detection/**  
+### **~/Lane Detection/**  
 
 &emsp; &emsp; `lanesImage.py`: Detects Lanes on Road - for Image Input.  
 
@@ -50,7 +50,7 @@
 &emsp; &emsp; `test_video.mp4`: Samples Videos to test lanesVideo.py  
 
   
-**~/Object Detection/**  
+### **~/Object Detection/**  
 
 &emsp; &emsp; `coco.names`: COCO is a large-scale object detection, segmentation, and captioning dataset.  
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; to know more you can visit [Click Me](https://cocodataset.org/#home) .  
@@ -74,7 +74,7 @@
 * Yolov3 Config and Weight files obtained from [YoloV3](https://pjreddie.com/darknet/yolo/) by [Joseph Chet Redmon](https://pjreddie.com/)  
 
   
-**~/RPi Programs/**  
+### **~/RPi Programs/**  
 
 &emsp; The following programs are run on the Raspberri Pi mounted on the Car Prototype.  
 
@@ -87,14 +87,14 @@
 &emsp; &emsp; `SampleTestMotor.py`: Sample program to test DC motor through L298N driver.  
 
 
-**~/Sample TCP Connection/**  
+### **~/Sample TCP Connection/**  
 
 &emsp; &emsp; `client.py`: Sample TCP Client Program - Runs on RPi to establish connection with External GPU.  
 
 &emsp; &emsp; `server.py`: Sample TCP Server Program - Runs on laptop to send back data to RPi.  
 
 
-**~/Simulation Testing Driver/**  
+### **~/Simulation Testing Driver/**  
 
 &emsp; &emsp; `drive relay.py`: Program that connects with UDACITY Autonomous Driving Simulator.  
 
@@ -107,7 +107,7 @@
 &emsp; &emsp; `model throttle.h5`: Trained Model to control the Car's Throttle.  
 
 
-**~/Trafic Light Detection/**  
+### **~/Trafic Light Detection/**  
 
 &emsp; &emsp; `TrafficLight.py`: Program that recognises Traffic Lights.  
 
@@ -116,7 +116,7 @@
 &emsp; &emsp; `Sample_Output.mp4`: Sample video output for the Traffic light Recognition.  
 
 
-**~/Traffic Sign Detection/**  
+### **~/Traffic Sign Detection/**  
 
 &emsp; &emsp; `Traffic Signs Detection.py`: Program to Predcit Traffic signs - for Video Input.  
 
@@ -126,14 +126,14 @@
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
 
 
-**~/Udacity Simulator/**  
+### **~/Udacity Simulator/**  
 
 &emsp; &emsp; `Udacity Simulator - Windows64 - Installer.zip`: Windows Installer for Open Source Simulation Software  
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; developed by UDACITY using Unity Engine for Autonomous Car Simulation.  
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; For the Actual Project Refer the following link. https://github.com/udacity/self-driving-car-sim  
 
 
-**~/Video Recording/**  
+### **~/Video Recording/**  
 
 &emsp; &emsp; `videoCapture.py`: Program to record video from a camera or mp4 or mjpeg stream.  
 
