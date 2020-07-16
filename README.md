@@ -184,15 +184,15 @@ The external hardware used in this project consists of two laptops. Each running
 #### MODEL CAR
 <div><img src="Assets/IMAGES/IMG11.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
 <img src="Assets/IMAGES/IMG12.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
-<img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG15.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
-<img src="Assets/IMAGES/IMG19.jpg" alt="Ghost Car Images" width=45% height=270px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG13.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
-<img src="Assets/IMAGES/IMG14.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG16.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
-<img src="Assets/IMAGES/IMG17.jpg" alt="Ghost Car Images" width=45% height=270px hspace="20"/></div>
-<img src="Assets/IMAGES/IMG18.jpeg" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
+<div><img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG15.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG19.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG13.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG14.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG16.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG17.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<img src="Assets/IMAGES/IMG18.jpeg" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
 
 
 ### VIDEOS
