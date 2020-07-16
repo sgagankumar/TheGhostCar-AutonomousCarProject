@@ -182,8 +182,8 @@ The external hardware used in this project consists of two laptops. Each running
 <img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
 
 #### MODEL CAR
-<div><img src="Assets/IMAGES/IMG11.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
-<img src="Assets/IMAGES/IMG12.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG11.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG12.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
 <div><img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
 <img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/></div>
 <div><img src="Assets/IMAGES/IMG15.JPG" alt="Ghost Car Images" width=45% height=270px hspace="20"/>
