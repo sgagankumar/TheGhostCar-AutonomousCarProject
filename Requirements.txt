@@ -6,5 +6,5 @@ opencv-python==3.4.9.33
 pandas==1.0.1
 tensorflow==1.15.4
 tensorflow-estimator==1.15.1
-tensorflow-gpu==2.1.2
+tensorflow-gpu==2.7.2
 tensorflow-gpu-estimator==2.1.0
