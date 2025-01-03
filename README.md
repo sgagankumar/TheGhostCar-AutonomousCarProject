@@ -4,8 +4,11 @@
 * The Aim of this project was to develop a Autonomous Car Prototype, which had automatic steering control, traffic sign recognition, traffic light detection and other object detection features.  
 * The Project runs on a Model Car which uses a Raspberry Pi 4B+, assisted by 1-3 external computing hardware based on the GPU memory capacity. The Model Car collects input from a camera module, an ultrasonic sensor, sends data to a external computer over IP. The computer processes the input data for movement controls, object detection (traffic sign and traffic light) and collision avoidance.  
 * All these features are achieved using latest technologies such as, Machine Learning Algorithms, Artificial Neural Networks, Sensor Fusion and Computer Vision.
-* For DataSet and Training Procedures used to train the following model refer to my other repository -  
-&emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
+* For DataSet and Training Procedures used to train traffic sign model refer to my other repository -  
+&emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)
+* For DataSet and Training Procedures used to train driver model refer to my other repository - 
+* For DataSet  - [GhostCar-TrainingData](https://github.com/sgagankumar/GhostCar-TrainingData)  
+* For Training  - [GhostCar-Training](https://github.com/sgagankumar/GhostCar-Training)  
 
 
 ## THE GHOST CAR - PROTOTYPE
