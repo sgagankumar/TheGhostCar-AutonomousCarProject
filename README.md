@@ -3,11 +3,39 @@
 
 * The Aim of this project was to develop a Autonomous Car Prototype, which had automatic steering control, traffic sign recognition, traffic light detection and other object detection features.  
 * The Project runs on a Model Car which uses a Raspberry Pi 4B+, assisted by 1-3 external computing hardware based on the GPU memory capacity. The Model Car collects input from a camera module, an ultrasonic sensor, sends data to a external computer over IP. The computer processes the input data for movement controls, object detection (traffic sign and traffic light) and collision avoidance.  
-* All these features are achieved using latest technologies such as, Machine Learning Algorithms, Artificial Neural Networks, Sensor Fusion and Computer Vision.  
+* All these features are achieved using latest technologies such as, Machine Learning Algorithms, Artificial Neural Networks, Sensor Fusion and Computer Vision.
+* For DataSet and Training Procedures used to train the following model refer to my other repository -  
+&emsp; &emsp; &emsp; &emsp; [ML-Traffic-Sign-Classification](https://github.com/sgagankumar/ML-Traffic-Sign-Classification)  
 
 
 ## THE GHOST CAR - PROTOTYPE
 <div align="center" ><img src="Assets/IMAGES/IMG0.jpg" alt="Ghost Car Images" width=auto height=350px hspace="20"/></div>
+
+## PROTOTYPE MODEL -
+### IMAGES
+#### MODEL TRACK
+<div><img src="Assets/IMAGES/IMG1.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+
+#### MODEL CAR
+<div><img src="Assets/IMAGES/IMG11.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG12.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG15.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG19.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG13.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG14.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<div><img src="Assets/IMAGES/IMG16.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+<img src="Assets/IMAGES/IMG17.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
+<img src="Assets/IMAGES/IMG18.jpeg" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
+
+
+### VIDEOS
+<img src="Assets/VIDEOS/VID1.gif" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
+<img src="Assets/VIDEOS/VID2.gif" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
 
 
 ## About the Project Files Structure
@@ -172,29 +200,3 @@ The external hardware used in this project consists of two laptops. Each running
   
 7. **Self-driving of prototype**: Run `python3 GhostCarDrive.py` on RPi4, wait for the program to perform GPIO pin setup and establish a connection with the TCP server. Once the above actions are performed the car with start self-driving.  
 &emsp; **NOTE**: To terminate the Program - Press *Ctrl + C* only once!, pressing multiple times with forcefully terminate the program causing GPIO pins to misbehave due improper program termination.  
-
-## PROTOTYPE MODEL -
-### IMAGES
-#### MODEL TRACK
-<div><img src="Assets/IMAGES/IMG1.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-<img src="Assets/IMAGES/IMG3.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG2.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-<img src="Assets/IMAGES/IMG4.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-
-#### MODEL CAR
-<div><img src="Assets/IMAGES/IMG11.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-<img src="Assets/IMAGES/IMG12.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG5.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-<img src="Assets/IMAGES/IMG6.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG15.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-<img src="Assets/IMAGES/IMG19.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG13.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-<img src="Assets/IMAGES/IMG14.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-<div><img src="Assets/IMAGES/IMG16.JPG" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-<img src="Assets/IMAGES/IMG17.jpg" alt="Ghost Car Images" width=40% height=225px hspace="20"/></div>
-<img src="Assets/IMAGES/IMG18.jpeg" alt="Ghost Car Images" width=40% height=225px hspace="20"/>
-
-
-### VIDEOS
-<img src="Assets/VIDEOS/VID1.gif" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
-<img src="Assets/VIDEOS/VID2.gif" alt="Ghost Car Images" width=auto height=350px hspace="20"/>
